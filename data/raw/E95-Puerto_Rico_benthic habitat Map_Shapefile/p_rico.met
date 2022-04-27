@@ -1,0 +1,176 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: NOAA/NOS/NOAA/Biogeography Program
+      Publication_Date: 20011201
+      Title: Benthic Habitats of Puerto Rico
+      Edition: 1
+      Geospatial_Data_Presentation_Form: vector digital data
+      Publication_Information:
+        Publication_Place: Charleston, SC
+        Publisher: NOAA Coastal Services Center
+  Description:
+    Abstract: This project is a cooperative effort between NOAA's National Centers for Coastal Ocean Science (NCCOS), U.S. Geological Survey, National Park Service, and the National Geophysical Data Center, to produce benthic habitat maps and georeferenced imagery for Puerto Rico.  This project was conducted in support of the U.S. Coral Reef Task Force.
+    Purpose: This project was conducted in support of the U.S. Coral Reef Task Force. For more information see http://coralreef.gov
+  Time_Period_of_Content:
+    Currentness_Reference: Ground condition at date photos were taken (Feb, Mar, and Dec 1999).  It should be noted that this season is in general dominated by more energetic sea conditions.  This results in temporary erosion of beaches and other coastal features.  Eroded beaches often experience accretion of sand during less energetic seasons.  Maps reflect only the conditions at the time of the photos.
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 1999
+        Ending_Date: 2001
+  Status:
+    Progress: complete
+    Maintenance_and_Update_Frequency: None planned
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -68.01
+      East_Bounding_Coordinate: -65.22
+      North_Bounding_Coordinate: 18.59
+      South_Bounding_Coordinate: 17.82
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: none
+      Theme_Keyword: coral
+      Theme_Keyword: seagrass
+      Theme_Keyword: SAV
+      Theme_Keyword: reef
+      Theme_Keyword: aerial photography
+      Theme_Keyword: benthic
+      Theme_Keyword: habitat
+      Theme_Keyword: mangrove
+    Place:
+      Place_Keyword_Thesaurus: none
+      Place_Keyword: Puerto Rico
+      Place_Keyword: Mona
+      Place_Keyword: Culebra
+      Place_Keyword: Vieques
+      Place_Keyword: Desecheo
+  Access_Constraints: none
+  Use_Constraints: none
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Matthew S. Kendall
+        Contact_Organization: NOAA/NOS/NCCOS/Biogeography Program
+      Contact_Position: Marine Biologist
+      Contact_Address:
+        Address_Type: mailing and physical
+        Address: 1305 East West Highway, N/SCI-1
+        City: Silver Spring
+        State_or_Province: Maryland
+        Postal_Code: 20910
+        Country: USA
+      Contact_Voice_Telephone: 301-713-3028*144
+      Contact_Facsimile_Telephone: 301-713-4388
+      Contact_Electronic_Mail_Address: matt.kendall@noaa.gov
+      Hours_of_Service: 8:00 AM to 5:00 PM M-F EST
+  Data_Set_Credit: Puerto Rico Department of Natural and Environmental Resources, University of Puerto Rico, USGS, NPS, VI. Dept. Planning Natural Resources; Div. Fish and Wildlife, Univ. VI, Cons. Data Center, The Nature Conservancy, Sea Grant, and other local and regional experts for input and review
+  Native_Data_Set_Environment: ArcView Shapefile
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: Thematic accuracy was determined by comparison to field points and found to be 93.6% overall (% of ground truth sites correctly attributed in the habitat map).
+  Logical_Consistency_Report: Polygons were delineated from orthophotos directly into a GIS using ArcView.  Attribution of polygon types was accomplished in ArcView as well.  A careful review of the finished polygon coverage was done to ensure that all labels were complete and accurate.
+  Completeness_Report: Data is complete.  All interpretable habitats were mapped and peer reviewed by a panel of local experts familiar with the project area.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report: Polygons were digitized directly from orthophotos with spatial accuracy between 1 and 9 m and are believed to inherit this spatial accuracy.
+    Vertical_Positional_Accuracy:
+      Vertical_Positional_Accuracy_Report: not applicable
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: NOAA/NOS/NCCOS/Biogeography Program
+          Publication_Date: 1999
+          Title: Benthic Habitats of Puerto Rico; Aerial Photos
+          Edition: 1
+          Geospatial_Data_Presentation_Form: vector digital data
+          Publication_Information:
+            Publication_Place: Charleston, SC
+            Publisher: NOAA Coastal Services Center
+      Source_Scale_Denominator: 48000
+      Type_of_Source_Media: aerial photography and scanned photos
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 1999
+            Ending_Date: 1999
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: NOAA/NOS/NGS Aerial Photos
+      Source_Contribution: Benthic features were interpreted and mapped from NOS aerial photos
+    Process_Step:
+      Process_Description: Ground control points, camera calibration data, and USGS DTM data were used to orthorectify 500 dpi scans of the aerial photos using Socet Set Version 4.2.1. Orthorectified images were then loaded into ArcView 3.2 with the Image Analyst and Habitat Digitizer Extensions activated.  This allowed the photointerpreter to interpret features, delineate and attribute benthic habitat directly into a digital reference system.  The data were saved as ArcView shapefiles.
+      Process_Date: 2000
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Person: Matthew S. Kendall
+          Contact_Position: Marine Biologist
+          Contact_Address:
+            Address_Type: mailing and physical
+            Address: 1305 East West Highway, N/SCI-1, SSMC4
+            City: Silver Spring
+            State_or_Province: Maryland
+            Postal_Code: 20910
+            Country: USA
+          Contact_Voice_Telephone: 301-713-3028 *144
+          Contact_Facsimile_Telephone: 301-713-4388
+          Contact_Electronic_Mail_Address: matt.kendall@noaa.gov
+          Hours_of_Service: 8:00 AM to 5:00 PM M-F EST
+  Cloud_Cover: 2
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: vector
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Geographic:
+      Latitude_Resolution: 0.1
+      Longitude_Resolution: 0.1
+      Geographic_Coordinate_Units: Decimal degrees
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 80, WGS84
+      Semi-major_Axis: 6378137
+      Denominator_of_Flattening_Ratio: 298.25
+Entity_and_Attribute_Information:
+  Overview_Description:
+    Entity_and_Attribute_Overview: Benthic features were assigned one of twenty-six habitat types and nine geomorphological zones ranging from sand to coral and shoreline to shelf edge respectively.  A complete description of these classification categories can be found in the methods document for this project and at http://biogeo.nos.noaa.gov/projects/mapping/caribbean/
+    Entity_and_Attribute_Detail_Citation: ArcView Shapefiles; Unprojected (Geographic); 2 attributes per polygon (habitat, zone); 1 acre minimum mapping unit
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NOAA/NOS/NCCOS/Biogeography Program
+      Contact_Address:
+        Address_Type: mailing and physical
+        Address: 1305 East West Highway, N/SCI-1, SSMC4
+        City: Silver Spring
+        State_or_Province: Maryland
+        Postal_Code: 20910
+        Country: USA
+      Contact_Voice_Telephone: 301-713-3028 *144
+      Contact_Facsimile_Telephone: 301-713-4388
+      Contact_Electronic_Mail_Address: matt.kendall@noaa.gov
+      Hours_of_Service: 8:00 AM to 5:00 PM M-F EST
+  Distribution_Liability: not to be used for navigation
+Metadata_Reference_Information:
+  Metadata_Date: 2001
+  Metadata_Review_Date: 2001
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Matthew S. Kendall
+        Contact_Organization: NOAA/NOS/NCCOS/Biogeography Program
+      Contact_Position: Marine Biologist
+      Contact_Address:
+        Address_Type: mailing and physical
+        Address: 1305 East West Highway, N/SCI-1, SSMC4
+        City: Silver Spring
+        State_or_Province: Maryland
+        Postal_Code: 20910
+        Country: USA
+      Contact_Voice_Telephone: 301-713-3028 *144
+      Contact_Facsimile_Telephone: 301-713-4388
+      Contact_Electronic_Mail_Address: matt.kendall@noaa.gov
+      Hours_of_Service: 8:00 AM to 5:00 PM M-F EST
+  Metadata_Standard_Name: FGDC Content Standard for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
