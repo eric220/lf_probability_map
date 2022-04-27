@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    folium_map = gdf.explore(column = 'rel_probs', cmap='seismic', legend_kwds = {'caption': 'Realtive Probability'}\
+    folium_map = gdf.explore(column = 'rel_probs', cmap='seismic', legend_kwds = {'caption': 'Realtive Probability'},\
                             prefer_canvas = True)
     return folium_map._repr_html_()
 
