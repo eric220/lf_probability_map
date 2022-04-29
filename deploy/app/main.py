@@ -7,7 +7,7 @@ gdf = gpd.read_file("../deploy_data/gdf_w_clusters.shp")
 
 @app.route('/')
 def home():
-    folium_map = explore_df.explore(column = 'rel_probs', cmap='seismic', legend_kwds = {'caption': 'Realtive Probability'},\
+    folium_map = gdf.explore(column = 'rel_probs', cmap='seismic', legend_kwds = {'caption': 'Realtive Probability'},\
                    prefer_canvas = True)
     return folium_map._repr_html_()
 
